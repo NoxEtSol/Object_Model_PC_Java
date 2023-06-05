@@ -2,9 +2,9 @@ package model.utils;
 
 import model.Memory;
 import model.Pc;
-import model.vynimky.NotEnoughSpaceForMemoryModulesException;
-import model.vynimky.NotEvenNumberOfMemoryCardsInsertedException;
-import model.vynimky.NotTheSameCardTypeException;
+import model.exceptions.NotEnoughSpaceForMemoryModulesException;
+import model.exceptions.NotEvenNumberOfMemoryCardsInsertedException;
+import model.exceptions.NotTheSameCardTypeException;
 
 public class PcUtil {
 

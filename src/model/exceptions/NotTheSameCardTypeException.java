@@ -1,4 +1,4 @@
-package model.vynimky;
+package model.exceptions;
 
 public class NotTheSameCardTypeException extends Exception{
     public NotTheSameCardTypeException() {

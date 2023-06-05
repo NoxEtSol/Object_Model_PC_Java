@@ -4,9 +4,9 @@ import model.Card;
 import model.Memory;
 import model.Pc;
 import model.Procesor;
-import model.vynimky.NotEnoughSpaceForMemoryModulesException;
-import model.vynimky.NotEvenNumberOfMemoryCardsInsertedException;
-import model.vynimky.NotTheSameCardTypeException;
+import model.exceptions.NotEnoughSpaceForMemoryModulesException;
+import model.exceptions.NotEvenNumberOfMemoryCardsInsertedException;
+import model.exceptions.NotTheSameCardTypeException;
 
 public interface ConfiguratorService {
 

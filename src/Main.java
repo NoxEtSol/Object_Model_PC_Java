@@ -4,9 +4,9 @@ import model.Pc;
 import model.Procesor;
 import model.enums.CardType;
 import model.services.Configurator;
-import model.vynimky.NotEnoughSpaceForMemoryModulesException;
-import model.vynimky.NotEvenNumberOfMemoryCardsInsertedException;
-import model.vynimky.NotTheSameCardTypeException;
+import model.exceptions.NotEnoughSpaceForMemoryModulesException;
+import model.exceptions.NotEvenNumberOfMemoryCardsInsertedException;
+import model.exceptions.NotTheSameCardTypeException;
 
 import java.util.ArrayList;
 import java.util.List;
