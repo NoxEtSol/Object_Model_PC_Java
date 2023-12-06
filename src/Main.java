@@ -29,7 +29,7 @@ public class Main {
 
         memories.add(memory);
         memories.add(memory2);
-
+        System.out.println("hello");
         configurator.insertMemory(pc, memory, memory2);
         configurator.insertProcesor(pc, procesor);
         configurator.insertCards(pc, card);
